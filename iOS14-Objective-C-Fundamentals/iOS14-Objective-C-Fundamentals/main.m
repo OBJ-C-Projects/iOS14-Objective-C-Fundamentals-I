@@ -42,6 +42,18 @@ int main(int argc, const char * argv[]) {
         [basics explorePrimitives];
         [basics exploreObjects];
         
+        // Literals
+        // Array: @[]
+        // Dictionary: @{ key : value }
+        // NSNumber: @123
+
+        [basics exploreCollectionsWithArray:@[@"Malcolm Reynolds",
+                                              @"Jean-Luc Picard",
+                                              @"James T. Kirk",
+                                              @"Kathryn Janeway"]];
+        
+        
+        [basics exploreNumbers];
     }
     return 0;
 }
