@@ -31,4 +31,22 @@
     return self;
 }
 
+- (void)explorePrimitives {
+    NSLog(@"test");
+}
+
+- (void)exploreObjects {
+    
+}
+
+- (void)exploreCollectionsWithArray:(NSArray *)shipCaptains {
+    
+}
+
+- (void)exploreNumbers {
+    
+}
+
+
+
 @end

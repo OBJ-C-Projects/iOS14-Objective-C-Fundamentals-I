@@ -20,6 +20,9 @@ int main(int argc, const char * argv[]) {
         // Swift
         //let basics = SwiftBasics()
         
+        // Initialization is two steps
+        // 1. Allocating the memory (buying land)
+        // 2. Inititalizing the object (building a house)
         SyntaxBasics *basics = [[SyntaxBasics alloc] initWithLargeNumber:@34340939];
         
         // Swift
@@ -32,6 +35,11 @@ int main(int argc, const char * argv[]) {
         // %ld or %li
         
         NSLog(@"Large Number: %@", basics.largeNumber);
+        
+        // Swift
+        // basics.explorePrimitives()
+        
+        [basics explorePrimitives];
         
     }
     return 0;
