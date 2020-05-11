@@ -15,7 +15,7 @@
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
-        NSLog(@"Hello Paul!");
+        NSLog(@"Hello Fritz!");
         
         // Swift
         //let basics = SwiftBasics()
